@@ -1,0 +1,73 @@
+
+
+body {
+  background-image: url("https://wallpaperaccess.com/full/2000058.jpg");
+  background-size:cover;
+  background-attachment: fixed;
+  /* text-align: center; */
+  padding: 5%;
+  font-family: cursive;
+}
+
+.navBar{
+  background-color: black;
+  opacity: 0.84;
+}
+
+.pageTitle{
+  color: white;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.navLink {
+  margin: 10px;
+  color: white
+}
+
+img{
+  width:256px
+}
+
+.movieCard {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  max-width: 400px;
+  padding: 2%;
+  margin: 10px;
+}
+
+.movieTitle {
+  color: white
+}
+.movieDesc {
+  color: white
+}
+
+label {
+  color: white;
+}
+
+input, button {
+  background-color: grey;
+  margin: 0px;
+  padding: 0px;
+}
+
+.err {
+  margin: 0px;
+  padding: 0px;
+  font-weight: bold;
+  font-size: 9pt;
+  color: red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.movieContainer {
+  display: flex;
+  flex: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
